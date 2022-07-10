@@ -1,0 +1,9 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  height: 100vh;
+  /*background: url(https://3.bp.blogspot.com/-VohIAKg72C4/UJPNPsLZxhI/AAAAAAAANG8/-dUsv9bqXyI/s1600/Winter+Desktop+Wallpapers+and+Backgrounds+5.jpg)
+    50% / cover #ddd;
+  background-blend-mode: overlay;*/
+  background-color: white;
+}
