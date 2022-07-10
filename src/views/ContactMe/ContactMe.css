@@ -1,7 +1,0 @@
-.contactMe_section {
-  padding-bottom: 200px;
-  height: 40vh;
-  background-color: gray;
-  clip-path: polygon(0 30%, 0 100%, 100% 100%, 100% 0%);
-  border: 2px solid palegreen;
-}
