@@ -1,0 +1,23 @@
+.about_section {
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+}
+
+.about_content {
+  border: 2px solid red;
+  width: 50%;
+  padding: 5rem;
+}
+
+.about_photo {
+  width: 50%;
+  border: 2px solid green;
+  padding: 5rem;
+}
+
+h1 {
+}
+p {
+  text-align: justify;
+}
