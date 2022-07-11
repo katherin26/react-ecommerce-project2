@@ -1,0 +1,83 @@
+.contactMe__section {
+  border-top: 0.5px solid whitesmoke;
+}
+
+.contactMe__title {
+  color: white;
+  text-align: center;
+
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.contactMe__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contactMe__blur__container {
+  position: relative;
+  width: 8vw;
+  height: 8vw;
+  margin: 0 3%;
+  border-radius: 50%;
+  min-width: 4rem;
+  max-width: 4rem;
+  min-height: 4rem;
+  max-height: 4rem;
+}
+.contactMe__blur__content {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactMe__blur__content a {
+  width: 100%;
+  height: 100%;
+  font-size: 18.3px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px;
+  color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: solid 1px rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.4);
+  transition: background 0.25s, box-shadow 0.25s, transform 0.25s;
+  text-decoration: none;
+}
+
+.contactMe__blur__content a:hover {
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transform: scale(1.5);
+}
+
+.contactMe__blur__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://wallpaperaccess.com/full/497913.jpg) no-repeat center /
+    cover fixed;
+  filter: blur(3px);
+  border-radius: 50%;
+  transition: 0.25s;
+  z-index: -1;
+}
+
+.contactMe__blur__content a:hover + .contactMe__blur__bg {
+  top: -25%;
+  left: -25%;
+  width: 150%;
+  height: 150%;
+}

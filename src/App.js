@@ -4,6 +4,26 @@ import Footer from "./components/Footer/Footer";
 import Section from "./components/Section/Section";
 import About from "./views/About/About";
 import ContactMe from "./views/ContactMe/ContactMe";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import {
+  faTwitter,
+  faFontAwesome,
+  faInstagram,
+  faWhatsapp,
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
+
+library.add(
+  fas,
+  faTwitter,
+  faFontAwesome,
+  faInstagram,
+  faWhatsapp,
+  faEnvelope,
+  faFacebook
+);
 
 function App() {
   return (
