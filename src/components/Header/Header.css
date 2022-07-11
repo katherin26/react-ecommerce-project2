@@ -1,35 +1,29 @@
 /*Mobile First*/
 .header__section {
-  border: 2px solid yellow;
 }
 
 .header__content {
-  border: 2px solid blue;
 }
 
 .header__navbar {
-  border: 2px solid snow;
   display: flex;
   justify-content: space-between;
   margin: 0.5rem;
   padding: 0.5rem;
-  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 0.726);
   border-radius: 10px;
 }
 
 .header__logo {
-  border: 2px solid wheat;
   color: white;
   padding: 1rem;
 }
 
 .header__menu {
-  border: 2px solid aqua;
   display: flex;
   padding: 1rem;
 }
 
 .header__menu--bottom {
-  border: 2px solid pink;
   padding: 0.5rem;
 }

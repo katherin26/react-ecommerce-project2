@@ -8,8 +8,10 @@
 body {
   /*height: 100vh;
   width: 100%;*/
-  border: 2px solid red;
-  background-color: lightsalmon;
+  background: url(https://wallpaperaccess.com/full/497913.jpg) 50% / cover,
+    rgba(69, 60, 85, 0.911);
+
+  background-blend-mode: overlay;
 }
 
 @media only screen and (min-width: 40.625em) {
