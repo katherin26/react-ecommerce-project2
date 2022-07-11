@@ -19,3 +19,32 @@
 .carousel__image {
   width: 100%;
 }
+
+.carousel__content {
+  position: relative;
+}
+
+.carousel__content__title {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.carousel__content__link {
+  display: block;
+  text-decoration: none;
+  color: #464546;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.carousel__content__link:hover {
+  text-decoration: underline;
+}
+.carousel__content__heart {
+  position: absolute;
+  top: 4px;
+  right: 0;
+  color: #9ab6b6;
+  transition: all 100ms linear;
+  cursor: pointer;
+}

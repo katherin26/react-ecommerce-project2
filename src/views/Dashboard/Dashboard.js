@@ -11,6 +11,8 @@ function Dashboard() {
           <ProductCard />
         </div>
       </div>
+      <div className="nav__prev">-</div>
+      <div className="nav__next">-</div>
     </div>
   );
 }

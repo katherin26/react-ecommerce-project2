@@ -12,9 +12,14 @@ function ProductCard() {
         />
       </div>
       <div className="carousel__content">
-        <h1>Cherry</h1>
-        <a href="https://unsplash.com/photos/vbAEHCrvXZ0">@picoftasty</a>
-        <span>heart icon</span>
+        <h1 className="carousel__content__title">Cherry</h1>
+        <a
+          className="carousel__content__link"
+          href="https://unsplash.com/photos/vbAEHCrvXZ0"
+        >
+          @picoftasty
+        </a>
+        <span className="carousel__content__heart">heart icon</span>
       </div>
     </div>
   );
