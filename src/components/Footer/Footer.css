@@ -1,0 +1,10 @@
+.footer__title {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.copyright {
+  padding: 0 1px 0 1px;
+}

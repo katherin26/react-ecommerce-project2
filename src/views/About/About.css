@@ -1,0 +1,15 @@
+.about__section {
+  background-color: rgb(255, 255, 255);
+  height: 10rem;
+  border: 2px solid red;
+}
+.about__content {
+  border: 2px solid red;
+}
+.about__title {
+  border: 2px solid greenyellow;
+}
+
+.about__paragraph {
+  border: 2px solid aqua;
+}
