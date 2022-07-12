@@ -2,17 +2,14 @@ import React from "react";
 import "./Dashboard.css";
 import ProductCard from "../../components/Product/ProductCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 function Dashboard() {
   return (
     <div className="dashboard__section">
       <div className="dashboard__title">Products section</div>
-      <div className="dashboard__container">
-        <div className="carousel" id="carousel">
-          <ProductCard />
-        </div>
-      </div>
+
       <Carousel
         showArrows={true}
         onChange={() => console.log("Onchange")}

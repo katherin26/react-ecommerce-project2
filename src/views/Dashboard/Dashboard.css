@@ -1,58 +1,11 @@
 .dashboard__section {
-  border: 2px solid aqua;
-  padding: 1rem;
+  padding: 0.5rem;
+  border-top: 0.5px solid white;
 }
 
 .dashboard__title {
   text-align: center;
   font-size: 1.5rem;
   color: white;
-}
-
-.dashboard__container {
-  border: 2px solid pink;
-  position: relative;
-  display: block;
-  max-width: 1000px;
   padding: 1rem;
-  margin: auto;
-}
-
-.carousel {
-  border: 2px solid black;
-  margin: auto;
-  padding: 50px;
-}
-
-#carousel {
-  border: 2px solid greenyellow;
-  padding: 1rem;
-}
-
-.nav__prev,
-.nav__next {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  height: 50px;
-  font-size: 35px;
-  cursor: pointer;
-  color: #749393;
-}
-
-.nav__prev:hover {
-  color: #9ab6b6;
-}
-
-.nav__next:hover {
-  color: #9ab6b6;
-}
-
-.nav__prev {
-  left: 10px;
-}
-
-.nav__next {
-  right: 10px;
 }
