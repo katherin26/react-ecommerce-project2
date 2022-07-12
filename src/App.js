@@ -10,14 +10,19 @@ import {
   fas,
   faArrowLeft,
   faArrowRight,
+  faP,
+  faGifts,
 } from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope, faSun, faStar } from "@fortawesome/free-regular-svg-icons";
 import {
   faTwitter,
   faFontAwesome,
   faInstagram,
   faWhatsapp,
   faFacebook,
+  faDailymotion,
+  faPinterestSquare,
+  faPinterestP,
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
@@ -29,7 +34,14 @@ library.add(
   faEnvelope,
   faFacebook,
   faArrowLeft,
-  faArrowRight
+  faArrowRight,
+  faDailymotion,
+  faP,
+  faPinterestSquare,
+  faPinterestP,
+  faGifts,
+  faSun,
+  faStar
 );
 
 function App() {

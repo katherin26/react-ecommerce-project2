@@ -17,11 +17,26 @@
 .header__logo {
   color: white;
   padding: 1rem;
+  display: flex;
+  flex-direction: wrap;
 }
 
+.header__logo__sigil {
+  margin-right: 0.1rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.header__logo__title {
+  display: flex;
+  align-self: center;
+  font-weight: 600;
+}
 .header__menu {
   display: flex;
   padding: 1rem;
+
+  align-self: center;
 }
 
 .header__menu--bottom {
