@@ -35,8 +35,8 @@
   top: 0;
   bottom: 0;
   margin: auto;
-  height: 20px;
-  font-size: 24px;
+  height: 50px;
+  font-size: 35px;
   cursor: pointer;
   color: #749393;
 }
@@ -47,4 +47,12 @@
 
 .nav__next:hover {
   color: #9ab6b6;
+}
+
+.nav__prev {
+  left: 10px;
+}
+
+.nav__next {
+  right: 10px;
 }

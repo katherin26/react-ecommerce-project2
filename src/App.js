@@ -6,7 +6,11 @@ import About from "./views/About/About";
 import ContactMe from "./views/ContactMe/ContactMe";
 import Dashboard from "./views/Dashboard/Dashboard";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { fas } from "@fortawesome/free-solid-svg-icons";
+import {
+  fas,
+  faArrowLeft,
+  faArrowRight,
+} from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import {
   faTwitter,
@@ -23,7 +27,9 @@ library.add(
   faInstagram,
   faWhatsapp,
   faEnvelope,
-  faFacebook
+  faFacebook,
+  faArrowLeft,
+  faArrowRight
 );
 
 function App() {

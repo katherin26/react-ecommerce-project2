@@ -1,6 +1,8 @@
 import React from "react";
 import "./Dashboard.css";
 import ProductCard from "../../components/Product/ProductCard";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Carousel } from "react-responsive-carousel";
 
 function Dashboard() {
   return (
@@ -11,8 +13,21 @@ function Dashboard() {
           <ProductCard />
         </div>
       </div>
-      <div className="nav__prev">-</div>
-      <div className="nav__next">-</div>
+      <Carousel
+        showArrows={true}
+        onChange={() => console.log("Onchange")}
+        onClickItem={() => console.log("OnClick Item")}
+        onClickThumb={() => console.log("onClickThumb")}
+      >
+        <div>
+          <img src="images/flowers__banner.jpg" />
+          <p className="legend">Legend 1</p>
+        </div>
+        <div>
+          <img src="images/flowers__banner2.jpg" />
+          <p className="legend">Legend 2</p>
+        </div>
+      </Carousel>
     </div>
   );
 }
