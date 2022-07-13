@@ -16,7 +16,7 @@
 
 .header__logo {
   color: white;
-  padding: 1rem;
+  padding: 0.8rem 0.5rem 2rem 0.5rem;
   display: flex;
   flex-direction: wrap;
   position: absolute;
@@ -36,9 +36,8 @@
 }
 .header__menu {
   display: flex;
-  padding: 1rem;
-
   align-self: center;
+  width: 100%;
 }
 
 .header__menu--bottom {

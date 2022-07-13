@@ -1,9 +1,7 @@
 .hamburgerMenu__container {
-  border: 2px solid red;
   width: 100%;
 }
 .hamburgerMenu__hamburger {
-  border: 2px solid greenyellow;
   transition: opacity 0.3s;
   margin: 0;
   float: right;
@@ -22,15 +20,15 @@
 }
 
 .hamburgerMenu__hamburger .line:nth-child(1) {
-  background-color: pink;
+  background-color: rgb(100, 68, 136);
 }
 
 .hamburgerMenu__hamburger .line:nth-child(2) {
-  background-color: hotpink;
+  background-color: rgb(144, 30, 148);
 }
 
 .hamburgerMenu__hamburger .line:nth-child(3) {
-  background-color: pink;
+  background-color: rgb(100, 68, 136);
 }
 /*Javascript hamburger*/
 .hamburgerMenu__hamburger.isactive .line:nth-child(2) {
@@ -46,8 +44,8 @@
 
 /*Navbar section */
 .hamburgerMenu__navbar {
-  background-color: rgb(122, 122, 122);
-  height: 40vh;
+  background-color: rgb(185, 168, 218);
+  height: fit-content;
   width: 100%;
   display: none;
 }
@@ -55,16 +53,17 @@
 .hamburgerMenu__navbar ul {
   overflow: hidden;
   list-style-type: none;
-  padding: 30% 3% 30% 3%;
+  padding: 15% 3% 10% 15%;
   margin: 0;
 }
 
 .hamburgerMenu__navbar li {
   display: block;
   margin: 0;
-  padding: 5% 50px;
+  padding: 3%;
   width: 100%;
   transition: background-color 0.5s;
+  text-align: center;
 }
 
 .hamburgerMenu__navbar li:hover {
@@ -72,18 +71,18 @@
 }
 
 .hamburgerMenu__navbar li a {
-  color: #d3e3e3;
+  color: white;
   text-decoration: none;
   padding: 14px 16px;
   font-family: "Raleway", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   transition: all 0.5s;
 }
 
 .hamburgerMenu__navbar li:hover {
   cursor: pointer;
-  background-color: #39a4ce;
-  letter-spacing: 10px;
+  background-color: #39c2ce;
+  letter-spacing: 5px;
 }
 .hamburgerMenu__navbar {
   transition: all 2s ease-in-out;
