@@ -1,5 +1,6 @@
 .hamburgerMenu__container {
   border: 2px solid red;
+  width: 100%;
 }
 .hamburgerMenu__hamburger {
   border: 2px solid greenyellow;
@@ -47,6 +48,7 @@
 .hamburgerMenu__navbar {
   background-color: #333;
   height: 40vh;
+  width: 100%;
   display: none;
 }
 
