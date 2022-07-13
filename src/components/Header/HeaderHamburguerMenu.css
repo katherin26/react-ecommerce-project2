@@ -46,7 +46,7 @@
 
 /*Navbar section */
 .hamburgerMenu__navbar {
-  background-color: #333;
+  background-color: rgb(122, 122, 122);
   height: 40vh;
   width: 100%;
   display: none;
