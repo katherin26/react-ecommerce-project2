@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import HamburguerMenu from "./HeaderHamburguerMenu";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Header() {
@@ -14,7 +15,9 @@ function Header() {
             />
             <div className="header__logo__title">Dulce Paz</div>
           </div>
-          <div className="header__menu">Menu</div>
+          <div className="header__menu">
+            <HamburguerMenu />
+          </div>
         </div>
       </div>
     </div>
