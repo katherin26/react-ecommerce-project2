@@ -41,8 +41,27 @@
 }
 
 /*Media Queries*/
-@media only screen and (min-width: 40.625em) {
-}
 
 @media only screen and (min-width: 56.25em) {
+  .header__logo {
+    color: white;
+    padding: 0.8rem 0.5rem 2rem 0.5rem;
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    left: 4.4rem;
+  }
+  .header__logo__sigil {
+    margin-right: 0.3rem;
+    font-size: 1.6rem;
+    color: rgb(174, 103, 177);
+  }
+
+  .header__logo__title {
+    display: flex;
+    align-self: center;
+    font-weight: bolder;
+    color: rgb(100, 68, 136);
+    font-size: 1.3rem;
+  }
 }
