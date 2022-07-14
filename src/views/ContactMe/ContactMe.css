@@ -88,3 +88,25 @@
   width: 150%;
   height: 150%;
 }
+
+@media only screen and (min-width: 56.25em) {
+  .contactMe__title {
+    color: white;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 2rem 0 0.5rem 0;
+    font-weight: bold;
+  }
+
+  .contactMe__blur__container {
+    min-width: 6rem;
+    max-width: 6rem;
+    min-height: 6rem;
+    max-height: 6rem;
+  }
+
+  .contactMe__blur__content a:hover {
+    transform: scale(1.3);
+  }
+}

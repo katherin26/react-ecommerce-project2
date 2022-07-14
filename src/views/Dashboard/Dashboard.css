@@ -14,11 +14,17 @@
 
 @media only screen and (min-width: 56.25em) {
   .dashboard__section {
-    margin: 3rem;
+    margin: 0;
+    padding: 0;
+    border-top: 0.1rem solid rgba(245, 245, 245, 0.726);
   }
-}
 
-@media only screen and (min-width: 112.5em) {
-  .dashboard__section {
+  .dashboard__title {
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
   }
 }
