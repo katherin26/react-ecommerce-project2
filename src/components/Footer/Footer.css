@@ -9,4 +9,11 @@
 
 .copyright {
   font-weight: bold;
+  margin-right: 3px;
+}
+
+@media only screen and (min-width: 56.25em) {
+  .footer__title {
+    font-size: 1rem;
+  }
 }
