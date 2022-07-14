@@ -1,4 +1,13 @@
 .dashboard__section {
   padding: 0.5rem;
-  border-top: 0.5px solid white;
+  border-top: 0.1rem solid rgba(245, 245, 245, 0.726);
+}
+
+.dashboard__title {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
 }

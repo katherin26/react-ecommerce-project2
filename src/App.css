@@ -6,28 +6,23 @@
 }
 
 body {
-  /*height: 100vh;
-  width: 100%;*/
-  background: url(https://wallpaperaccess.com/full/497913.jpg) 50% / cover,
-    rgba(69, 60, 85, 0.911);
-
+  height: 100vh;
+  width: 100%;
+  background: rgb(185, 168, 218);
   background-blend-mode: overlay;
 }
 
 @media only screen and (min-width: 40.625em) {
   body {
-    background-color: lightpink;
   }
 }
 
 @media only screen and (min-width: 56.25em) {
   body {
-    background-color: yellow;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
   body {
-    background-color: snow;
   }
 }

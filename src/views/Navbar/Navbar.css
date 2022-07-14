@@ -1,0 +1,7 @@
+.navbar__container {
+  background: url(https://wallpaperaccess.com/full/497913.jpg) 50% / cover,
+    rgba(69, 60, 85, 0.911);
+
+  background-blend-mode: overlay;
+  padding: 1rem;
+}

@@ -82,6 +82,7 @@ let productsDetails = [
 function Dashboard() {
   return (
     <div className="dashboard__section">
+      <div className="dashboard__title">Productos</div>
       {productsDetails.map((element, i) => (
         <ProductCard title={element.title} images={element.images} />
       ))}

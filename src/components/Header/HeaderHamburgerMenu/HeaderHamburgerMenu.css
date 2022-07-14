@@ -80,7 +80,7 @@
 
 .hamburgerMenu__navbar li:hover {
   cursor: pointer;
-  background-color: #39c2ce;
+  background-color: rgb(174, 103, 177);
   letter-spacing: 4px;
 }
 .hamburgerMenu__navbar {
@@ -103,5 +103,24 @@
   to {
     transform: translateX(0px);
     opacity: 1;
+  }
+}
+
+/*Media Queries*/
+@media only screen and (min-width: 40.625em) {
+  .hamburgerMenu__navbar ul {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 8% 10% 8% 19%;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 56.25em) {
+  .hamburgerMenu__navbar ul {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 5% 10% 5% 14%;
+    margin: 0;
   }
 }
