@@ -1,8 +1,7 @@
 import "./App.css";
-import Header from "./components/Header/Header";
+import Header from "./components/Header/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Section from "./components/Section/Section";
-import About from "./views/About/About";
+import Banner from "./components/Banner/Banner";
 import ContactMe from "./views/ContactMe/ContactMe";
 import Dashboard from "./views/Dashboard/Dashboard";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -48,7 +47,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Section />
+      <Banner />
       <Dashboard />
       <ContactMe />
       <Footer />

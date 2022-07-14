@@ -1,26 +1,28 @@
 import React from "react";
 import "./ProductCard.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
-function ProductCard() {
+function ProductCard({ images, title }) {
   return (
-    <div className="carousel__slide">
-      <div className="carousel__visual">
-        <img
-          className="carousel__image"
-          src="https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
-          alt=""
-        />
-      </div>
-      <div className="carousel__content">
-        <h1 className="carousel__content__title">Cherry</h1>
-        <a
-          className="carousel__content__link"
-          href="https://unsplash.com/photos/vbAEHCrvXZ0"
-        >
-          @picoftasty
-        </a>
-        <span className="carousel__content__heart">heart icon</span>
-      </div>
+    <div className="productCard__container">
+      <div className="productCard__title">{title}</div>
+      <Carousel
+        showArrows={true}
+        onChange={() => console.log("Onchange")}
+        onClickItem={() => console.log("OnClick Item")}
+        onClickThumb={() => console.log("onClickThumb")}
+        transitionTime={5}
+        autoPlay={true}
+        className="productCard__content"
+      >
+        {images.map((element, i) => (
+          <div>
+            <img src={element.image} />
+            <p className="legend">{element.detail}</p>
+          </div>
+        ))}
+      </Carousel>
     </div>
   );
 }

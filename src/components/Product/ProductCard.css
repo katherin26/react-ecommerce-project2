@@ -1,50 +1,12 @@
-.carousel__slide {
-  background-color: white;
-  padding: 10px;
-  margin: 0 30px;
-  margin: 30px auto;
-  width: 250px;
-  border-radius: 20px;
-  box-shadow: 0 0 10px 5px #e8e8e8;
-  transform: scale(0.8);
-  transition: all 400ms linear;
-}
-
-.carousel__visual {
-  height: 300px;
-  overflow: hidden;
+.productCard__container {
+  background-color: rgba(245, 245, 245, 0.726);
   border-radius: 10px;
 }
 
-.carousel__image {
-  width: 100%;
-}
-
-.carousel__content {
-  position: relative;
-}
-
-.carousel__content__title {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  font-size: 24px;
-}
-.carousel__content__link {
-  display: block;
-  text-decoration: none;
-  color: #464546;
-  font-size: 12px;
-  margin-bottom: 10px;
-}
-
-.carousel__content__link:hover {
-  text-decoration: underline;
-}
-.carousel__content__heart {
-  position: absolute;
-  top: 4px;
-  right: 0;
-  color: #9ab6b6;
-  transition: all 100ms linear;
-  cursor: pointer;
+.productCard__title {
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(100, 68, 136);
+  padding: 1rem;
+  font-weight: bold;
 }

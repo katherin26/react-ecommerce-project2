@@ -1,16 +1,16 @@
 import React from "react";
-import "./Section.css";
+import "./Banner.css";
 
 function Section() {
   return (
     <div className="banner__section">
       <div className="banner__content">
         <h2 className="banner__content--title">
-          Regalar algo a una persona es facil, hasta que buscas el mejor regalo
-          para quien te ha robado el corazon.
+          Regalar algo a una persona es fácil, hasta que buscas el mejor regalo
+          para quien te ha robado el corazón
         </h2>
         <h3 className="banner__content--phrase">
-          EL senor el mi pastor y nada me faltara.
+          El señor el mi pastor y nada me faltará Corregido con
         </h3>
         <h4 className="banner__content--cite"> Salmo 23:1</h4>
       </div>

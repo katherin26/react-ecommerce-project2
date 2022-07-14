@@ -1,32 +1,90 @@
 import React from "react";
 import "./Dashboard.css";
 import ProductCard from "../../components/Product/ProductCard";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+import Cosmetics from "../../assets/images/photo.jpeg";
+import Practice from "../../assets/images/cetech-oyf.png";
+
+let productsDetails = [
+  {
+    title: "Cosmetics",
+    images: [
+      { image: Practice, detail: "detail1" },
+      { image: Practice, detail: "detail2" },
+      { image: Practice, detail: "detail3" },
+      { image: Practice, detail: "detail4" },
+      { image: Practice, detail: "detail5" },
+      { image: Practice, detail: "detail7" },
+      { image: Practice, detail: "detail8" },
+    ],
+  },
+  {
+    title: "Cuidado Facial",
+    images: [
+      { image: Practice, detail: "detail1" },
+      { image: Practice, detail: "detail2" },
+      { image: Practice, detail: "detail3" },
+      { image: Practice, detail: "detail4" },
+      { image: Practice, detail: "detail5" },
+      { image: Practice, detail: "detail7" },
+      { image: Practice, detail: "detail8" },
+    ],
+  },
+  {
+    title: "Desayunos sorpresa",
+    images: [
+      { image: Practice, detail: "detail1" },
+      { image: Practice, detail: "detail2" },
+      { image: Practice, detail: "detail3" },
+      { image: Practice, detail: "detail4" },
+      { image: Practice, detail: "detail5" },
+      { image: Practice, detail: "detail7" },
+      { image: Practice, detail: "detail8" },
+    ],
+  },
+  {
+    title: "Arreglo de Flores",
+    images: [
+      { image: Practice, detail: "detail1" },
+      { image: Practice, detail: "detail2" },
+      { image: Practice, detail: "detail3" },
+      { image: Practice, detail: "detail4" },
+      { image: Practice, detail: "detail5" },
+      { image: Practice, detail: "detail7" },
+      { image: Practice, detail: "detail8" },
+    ],
+  },
+  {
+    title: "Smartwatch",
+    images: [
+      { image: Practice, detail: "detail1" },
+      { image: Practice, detail: "detail2" },
+      { image: Practice, detail: "detail3" },
+      { image: Practice, detail: "detail4" },
+      { image: Practice, detail: "detail5" },
+      { image: Practice, detail: "detail7" },
+      { image: Practice, detail: "detail8" },
+    ],
+  },
+  {
+    title: "Bolsos",
+    images: [
+      { image: Practice, detail: "detail1" },
+      { image: Practice, detail: "detail2" },
+      { image: Practice, detail: "detail3" },
+      { image: Practice, detail: "detail4" },
+      { image: Practice, detail: "detail5" },
+      { image: Practice, detail: "detail7" },
+      { image: Practice, detail: "detail8" },
+    ],
+  },
+];
 
 function Dashboard() {
   return (
     <div className="dashboard__section">
-      <div className="dashboard__title">Products section</div>
-
-      <Carousel
-        showArrows={true}
-        onChange={() => console.log("Onchange")}
-        onClickItem={() => console.log("OnClick Item")}
-        onClickThumb={() => console.log("onClickThumb")}
-        transitionTime={5}
-        autoPlay={true}
-      >
-        <div>
-          <img src="images/flowers__banner.jpg" />
-          <p className="legend">Legend 1</p>
-        </div>
-        <div>
-          <img src="images/header-banner-image.jpg" />
-          <p className="legend">Legend 2</p>
-        </div>
-      </Carousel>
+      {productsDetails.map((element, i) => (
+        <ProductCard title={element.title} images={element.images} />
+      ))}
     </div>
   );
 }

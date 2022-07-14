@@ -1,10 +1,4 @@
 /*Mobile First*/
-.header__section {
-}
-
-.header__content {
-}
-
 .header__navbar {
   display: flex;
   justify-content: flex-end;
@@ -12,6 +6,7 @@
   padding: 0.5rem;
   background-color: rgba(245, 245, 245, 0.726);
   border-radius: 10px;
+  box-shadow: 3px 3px rgba(150, 143, 170, 0.726);
 }
 
 .header__logo {
@@ -24,15 +19,16 @@
 }
 
 .header__logo__sigil {
-  margin-right: 0.1rem;
+  margin-right: 0.3rem;
   font-size: 1.5rem;
-  color: white;
+  color: rgb(174, 103, 177);
 }
 
 .header__logo__title {
   display: flex;
   align-self: center;
-  font-weight: 600;
+  font-weight: bolder;
+  color: rgb(100, 68, 136);
 }
 .header__menu {
   display: flex;

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import "./HeaderHamburguerMenu.css";
-import "./js.js";
+import "./HeaderHamburgerMenu.css";
 
-function HeaderHamburguerMenu() {
+function HeaderHamburgerMenu() {
   const [showMenu, setShowMenu] = useState(false);
 
   const handleToggle = () => {
@@ -56,4 +55,4 @@ function HeaderHamburguerMenu() {
   );
 }
 
-export default HeaderHamburguerMenu;
+export default HeaderHamburgerMenu;
