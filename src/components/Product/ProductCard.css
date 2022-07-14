@@ -17,8 +17,11 @@
 
 @media only screen and (min-width: 56.25em) {
   .productCard__container {
+    box-shadow: 0 0 15px rgb(202, 146, 216);
   }
-}
 
-@media only screen and (min-width: 112.5em) {
+  .productCard__title {
+    font-size: 1.3rem;
+    padding: 1.5rem;
+  }
 }

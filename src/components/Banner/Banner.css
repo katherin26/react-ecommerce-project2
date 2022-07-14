@@ -22,3 +22,31 @@
   letter-spacing: 0.2rem;
   padding: 1.5rem;
 }
+
+@media only screen and (min-width: 56.25em) {
+  .banner__section {
+    margin: 0.5rem 0 0.5rem 0;
+  }
+
+  .banner__content--title {
+    text-align: center;
+    color: rgb(253, 253, 253);
+    margin: 4rem 0 3rem 0;
+    padding: 2rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .banner__content--phrase {
+    padding: 0.1rem 2rem 0.1rem 2rem;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.2rem;
+  }
+
+  .banner__content--cite {
+    text-align: center;
+    color: white;
+    letter-spacing: 0.2rem;
+    padding: 1.5rem;
+  }
+}

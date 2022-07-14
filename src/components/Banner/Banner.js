@@ -10,7 +10,7 @@ function Section() {
           para quien te ha robado el corazón
         </h2>
         <h3 className="banner__content--phrase">
-          El señor el mi pastor y nada me faltará Corregido con
+          El señor el mi pastor y nada me faltará
         </h3>
         <h4 className="banner__content--cite"> Salmo 23:1</h4>
       </div>
