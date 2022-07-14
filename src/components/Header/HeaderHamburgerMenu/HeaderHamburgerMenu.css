@@ -107,20 +107,44 @@
 }
 
 /*Media Queries*/
-@media only screen and (min-width: 40.625em) {
-  .hamburgerMenu__navbar ul {
-    overflow: hidden;
-    list-style-type: none;
-    padding: 8% 10% 8% 19%;
-    margin: 0;
-  }
-}
 
 @media only screen and (min-width: 56.25em) {
+  .hamburgerMenu__hamburger {
+    display: none;
+  }
+
+  .hamburgerMenu__navbar {
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    display: block;
+
+    padding: 2px;
+  }
+
   .hamburgerMenu__navbar ul {
     overflow: hidden;
     list-style-type: none;
-    padding: 5% 10% 5% 14%;
+    padding: 2px;
     margin: 0;
+    height: 45px;
+  }
+
+  .hamburgerMenu__navbar li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    padding: 0.5rem;
+    transition: background-color 0.5s;
+    text-align: center;
+    float: right;
+  }
+
+  .hamburgerMenu__navbar li a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
   }
 }

@@ -11,3 +11,14 @@
   font-weight: bold;
   letter-spacing: 0.1rem;
 }
+
+@media only screen and (min-width: 56.25em) {
+  .dashboard__section {
+    margin: 3rem;
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  .dashboard__section {
+  }
+}

@@ -11,3 +11,14 @@
   font-weight: lighter;
   letter-spacing: 0.1rem;
 }
+
+@media only screen and (min-width: 40.625em) {
+}
+
+@media only screen and (min-width: 56.25em) {
+  .productCard__container {
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+}

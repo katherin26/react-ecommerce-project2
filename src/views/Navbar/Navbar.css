@@ -5,3 +5,9 @@
   background-blend-mode: overlay;
   padding: 1rem;
 }
+
+@media only screen and (min-width: 56.25em) {
+  .navbar__container {
+    padding: 3rem 1rem 3rem 1rem;
+  }
+}
