@@ -3,6 +3,7 @@ import Navbar from "./views/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import ContactMe from "./views/ContactMe/ContactMe";
 import Dashboard from "./views/Dashboard/Dashboard";
+import AboutUs from "./components/About/About";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   fas,
@@ -47,6 +48,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Dashboard />
+      <AboutUs />
       <ContactMe />
       <Footer />
     </div>
