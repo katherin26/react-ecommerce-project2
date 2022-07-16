@@ -9,7 +9,7 @@ function ContactMe() {
       <div className="contactMe__content">
         <div className="contactMe__blur__container">
           <div className="contactMe__blur__content">
-            <a href="">
+            <a href="https://wa.me/573152592401">
               <span className="contactMe__blur__content__icon">
                 <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
               </span>
@@ -29,7 +29,7 @@ function ContactMe() {
         </div>
         <div className="contactMe__blur__container">
           <div className="contactMe__blur__content">
-            <a href="">
+            <a href="https://www.facebook.com/jenny.villanueva.79656921">
               <span className="">
                 <FontAwesomeIcon icon="fa-brands fa-facebook" />{" "}
               </span>

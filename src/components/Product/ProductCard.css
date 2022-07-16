@@ -12,12 +12,32 @@
   letter-spacing: 0.1rem;
 }
 
+.carousel .slide .legend {
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  bottom: 30px !important;
+  width: 90%;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  font-size: 1rem !important;
+  text-align: center;
+  opacity: 0.9 !important;
+  transition: opacity 0.35s ease-in-out;
+}
+
+.carousel .control-dots {
+  margin: 1px !important;
+}
 @media only screen and (min-width: 40.625em) {
 }
 
 @media only screen and (min-width: 56.25em) {
   .productCard__container {
     box-shadow: 0 0 15px rgb(202, 146, 216);
+    margin: 2rem;
+    width: 60%;
   }
 
   .productCard__title {
