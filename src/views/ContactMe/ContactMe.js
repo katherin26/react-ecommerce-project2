@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function ContactMe() {
   return (
-    <div className="contactMe__section">
-      <div className="contactMe__title">Contact Me</div>
+    <div className="contactMe__section" id="contactMe__section">
+      <div className="contactMe__title">Contáctanos</div>
       <div className="contactMe__content">
         <div className="contactMe__blur__container">
           <div className="contactMe__blur__content">

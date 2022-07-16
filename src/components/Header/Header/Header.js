@@ -14,6 +14,7 @@ function Header() {
         />
         <div className="header__logo__title">Dulce Paz</div>
       </div>
+
       <div className="header__menu">
         <HeaderHamburgerMenu />
       </div>

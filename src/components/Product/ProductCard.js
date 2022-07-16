@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 
 function ProductCard({ images, title }) {
   return (
-    <div className="productCard__container">
+    <div className="productCard__container" id="productCard__container">
       <div className="productCard__title">{title}</div>
       <Carousel
         showArrows={true}

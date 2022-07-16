@@ -4,9 +4,9 @@ import Image from "../../assets/images/photo.jpeg";
 
 function About() {
   return (
-    <div className="about__section">
+    <div className="about__section" id="about__section">
       <div className="about__content">
-        <h1 className="about__title">Acerca de Mi</h1>
+        <h1 className="about__title">Mi Historia</h1>
         <div className="about__details">
           <div className="about__image">
             <span></span>

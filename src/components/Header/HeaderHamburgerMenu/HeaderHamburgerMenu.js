@@ -30,23 +30,18 @@ function HeaderHamburgerMenu() {
       >
         <ul>
           <li>
-            <a href="#">
+            <a href="#contactMe__section">
+              <b>Contáctanos</b>
+            </a>
+          </li>
+          <li>
+            <a href="#about__section">
+              <b>Mi Historia</b>
+            </a>
+          </li>
+          <li>
+            <a href="#dashboard__section">
               <b>Productos</b>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <b>Contactame</b>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <b>Historia</b>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <b>Home</b>
             </a>
           </li>
         </ul>
