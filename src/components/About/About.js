@@ -16,14 +16,15 @@ function About() {
             <img src={Image} className="about__image__user"></img>
           </div>
           <p className="about__paragraph">
-            Dulce Paz es una compañía fundada en el año 2017 por Jenny
-            Villanueva, nuestra misión es brindar servicios para facilitar a las
-            personas que necesitan de un regalo o una sorpresa especial para un
-            ser querido.
+            Dulce Paz es una compañía fundada en el año 2017 por{" "}
+            <b>Jenny Villanueva</b>, nuestra misión es brindar servicios para
+            facilitar a las personas que necesitan de un <b>regalo</b> o una
+            sorpresa especial para un ser querido.
             <br />
-            Gracias a las redes sociales como Facebook, Instagram, Whatsaap y
-            nuestro sitio web, podemos contactar con personas en toda Colombia y
-            proveer nuestra mercancía y servicios de lunes a domingo.
+            Gracias a las redes sociales como{" "}
+            <b>Facebook, Instagram, Whatsaap y nuestro sitio web</b>, podemos
+            contactar con personas en toda Colombia y proveer nuestra mercancía
+            y servicios de lunes a domingo.
           </p>
         </div>
       </div>
