@@ -7,6 +7,7 @@
   color: rgb(253, 253, 253);
   padding: 2rem;
   letter-spacing: 0.1rem;
+  margin-top: 4rem;
 }
 
 .banner__content--phrase {
@@ -14,6 +15,7 @@
   text-align: center;
   color: white;
   letter-spacing: 0.2rem;
+  margin-top: 2rem;
 }
 
 .banner__content--cite {
@@ -31,7 +33,7 @@
   .banner__content--title {
     text-align: center;
     color: rgb(253, 253, 253);
-    margin: 4rem 0 3rem 0;
+    margin: 10rem 0 3rem 0;
     padding: 2rem;
     letter-spacing: 0.1rem;
   }
@@ -48,5 +50,11 @@
     color: white;
     letter-spacing: 0.2rem;
     padding: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 40.625em) {
+  .banner__content--title {
+    margin: 8rem 0 3rem 0;
   }
 }

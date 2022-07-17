@@ -7,6 +7,7 @@
   background-color: rgba(245, 245, 245, 0.726);
   border-radius: 10px;
   box-shadow: 3px 3px rgba(150, 143, 170, 0.726);
+  margin-top: 2rem;
 }
 
 .header__logo {
