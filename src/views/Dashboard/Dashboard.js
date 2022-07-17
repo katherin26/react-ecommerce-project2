@@ -12,6 +12,28 @@ import Cosmetic8 from "../../assets/images_products_cosmetics/mac_rubor.png";
 import Cosmetic9 from "../../assets/images_products_cosmetics/mascara_chanel.png";
 import Cosmetic10 from "../../assets/images_products_cosmetics/shadow_chanel_4.png";
 
+import Facial1 from "../../assets/images_products_cuidadoFacial/cerave.png";
+import Facial2 from "../../assets/images_products_cuidadoFacial/clinique.png";
+import Facial3 from "../../assets/images_products_cuidadoFacial/foreo.png";
+import Facial4 from "../../assets/images_products_cuidadoFacial/garnier.png";
+import Facial5 from "../../assets/images_products_cuidadoFacial/larocheposey.png";
+import Facial6 from "../../assets/images_products_cuidadoFacial/larocheposey2.png";
+import Facial7 from "../../assets/images_products_cuidadoFacial/maxcomplexion.png";
+import Facial8 from "../../assets/images_products_cuidadoFacial/meltingcleansingbalm.png";
+import Facial9 from "../../assets/images_products_cuidadoFacial/niacinamidebrigtening.png";
+import Facial10 from "../../assets/images_products_cuidadoFacial/theordinary.png";
+
+import Flowers1 from "../../assets/images_products_arreglodeFlores/flowers1.jpg";
+import Flowers2 from "../../assets/images_products_arreglodeFlores/flowers2.jpg";
+import Flowers3 from "../../assets/images_products_arreglodeFlores/flowers3.jpg";
+import Flowers4 from "../../assets/images_products_arreglodeFlores/flowers4.jpg";
+import Flowers5 from "../../assets/images_products_arreglodeFlores/flowers5.jpg";
+import Flowers6 from "../../assets/images_products_arreglodeFlores/flowers6.jpg";
+import Flowers7 from "../../assets/images_products_arreglodeFlores/flowers7.jpg";
+import Flowers8 from "../../assets/images_products_arreglodeFlores/flowers8.jpg";
+import Flowers9 from "../../assets/images_products_arreglodeFlores/flowers9.jpg";
+import Flowers10 from "../../assets/images_products_arreglodeFlores/flowers10.jpg";
+
 let productsDetails = [
   {
     title: "Cosmetics",
@@ -40,37 +62,38 @@ let productsDetails = [
   {
     title: "Cuidado Facial",
     images: [
-      { image: Cosmetic1, detail: "detail1" },
-      { image: Cosmetic1, detail: "detail2" },
-      { image: Cosmetic1, detail: "detail3" },
-      { image: Cosmetic1, detail: "detail4" },
-      { image: Cosmetic1, detail: "detail5" },
-      { image: Cosmetic1, detail: "detail7" },
-      { image: Cosmetic1, detail: "detail8" },
+      { image: Facial1, detail: "Hydrating Facial Cleanser" },
+      { image: Facial2, detail: "Balm Makeup Remover" },
+      { image: Facial3, detail: "Foreo Play Plus 2" },
+      { image: Facial4, detail: "Skin Active Micellar Cleansing Water" },
+      { image: Facial5, detail: "Toleraine Hydrating Gentle Face Cleanser" },
+      { image: Facial6, detail: "Toleraine Purifying Foaming Face Wash" },
+      { image: Facial7, detail: "Max Complexion Correction Pads" },
+      {
+        image: Facial8,
+        detail: "Holy Hydration! Makeup Melting Cleansing Balm",
+      },
+      { image: Facial9, detail: "Niacinamide Brightening Toner" },
+      {
+        image: Facial10,
+        detail: "Glycolic Acid7% Exfoliating Toning Solution",
+      },
     ],
   },
-  {
-    title: "Desayunos sorpresa",
-    images: [
-      { image: Cosmetic1, detail: "detail1" },
-      { image: Cosmetic1, detail: "detail2" },
-      { image: Cosmetic1, detail: "detail3" },
-      { image: Cosmetic1, detail: "detail4" },
-      { image: Cosmetic1, detail: "detail5" },
-      { image: Cosmetic1, detail: "detail7" },
-      { image: Cosmetic1, detail: "detail8" },
-    ],
-  },
+
   {
     title: "Arreglo de Flores",
     images: [
-      { image: Cosmetic1, detail: "detail1" },
-      { image: Cosmetic1, detail: "detail2" },
-      { image: Cosmetic1, detail: "detail3" },
-      { image: Cosmetic1, detail: "detail4" },
-      { image: Cosmetic1, detail: "detail5" },
-      { image: Cosmetic1, detail: "detail7" },
-      { image: Cosmetic1, detail: "detail8" },
+      { image: Flowers1, detail: "Red Rose Flower" },
+      { image: Flowers2, detail: "Red Rose and White Clavel" },
+      { image: Flowers3, detail: "White Rose" },
+      { image: Flowers4, detail: "Red Rose and White flower" },
+      { image: Flowers5, detail: "Red and white Rose" },
+      { image: Flowers6, detail: "Pink Rose" },
+      { image: Flowers7, detail: "Orange and Yellow Rose" },
+      { image: Flowers8, detail: "Red Rose Heart" },
+      { image: Flowers9, detail: "Red Rose Cilinder" },
+      { image: Flowers10, detail: "Red Rose Cilinder" },
     ],
   },
   {
