@@ -1,38 +1,52 @@
 import React from "react";
 import "./Dashboard.css";
 import ProductCard from "../../components/Product/ProductCard";
-import Cosmetic1 from "../../assets/images_products_cosmetics/bronzing_chanel_cream.png";
-import Cosmetic2 from "../../assets/images_products_cosmetics/chanel_foundation.png";
-import Cosmetic3 from "../../assets/images_products_cosmetics/chanel_rubor.png";
-import Cosmetic4 from "../../assets/images_products_cosmetics/hoola_benefit.png";
-import Cosmetic5 from "../../assets/images_products_cosmetics/mac_fix_spray.jpeg";
-import Cosmetic6 from "../../assets/images_products_cosmetics/mac_fixplus.png";
-import Cosmetic7 from "../../assets/images_products_cosmetics/mac_lippencil.png";
-import Cosmetic8 from "../../assets/images_products_cosmetics/mac_rubor.png";
-import Cosmetic9 from "../../assets/images_products_cosmetics/mascara_chanel.png";
-import Cosmetic10 from "../../assets/images_products_cosmetics/shadow_chanel_4.png";
-
-import Facial1 from "../../assets/images_products_cuidadoFacial/cerave.png";
-import Facial2 from "../../assets/images_products_cuidadoFacial/clinique.png";
-import Facial3 from "../../assets/images_products_cuidadoFacial/foreo.png";
-import Facial4 from "../../assets/images_products_cuidadoFacial/garnier.png";
-import Facial5 from "../../assets/images_products_cuidadoFacial/larocheposey.png";
-import Facial6 from "../../assets/images_products_cuidadoFacial/larocheposey2.png";
-import Facial7 from "../../assets/images_products_cuidadoFacial/maxcomplexion.png";
-import Facial8 from "../../assets/images_products_cuidadoFacial/meltingcleansingbalm.png";
-import Facial9 from "../../assets/images_products_cuidadoFacial/niacinamidebrigtening.png";
-import Facial10 from "../../assets/images_products_cuidadoFacial/theordinary.png";
-
-import Flowers1 from "../../assets/images_products_arreglodeFlores/flowers1.jpg";
-import Flowers2 from "../../assets/images_products_arreglodeFlores/flowers2.jpg";
-import Flowers3 from "../../assets/images_products_arreglodeFlores/flowers3.jpg";
-import Flowers4 from "../../assets/images_products_arreglodeFlores/flowers4.jpg";
-import Flowers5 from "../../assets/images_products_arreglodeFlores/flowers5.jpg";
-import Flowers6 from "../../assets/images_products_arreglodeFlores/flowers6.jpg";
-import Flowers7 from "../../assets/images_products_arreglodeFlores/flowers7.jpg";
-import Flowers8 from "../../assets/images_products_arreglodeFlores/flowers8.jpg";
-import Flowers9 from "../../assets/images_products_arreglodeFlores/flowers9.jpg";
-import Flowers10 from "../../assets/images_products_arreglodeFlores/flowers10.jpg";
+import {
+  Cosmetic1,
+  Cosmetic2,
+  Cosmetic3,
+  Cosmetic4,
+  Cosmetic5,
+  Cosmetic6,
+  Cosmetic7,
+  Cosmetic8,
+  Cosmetic9,
+  Cosmetic10,
+  Facial1,
+  Facial2,
+  Facial3,
+  Facial4,
+  Facial5,
+  Facial6,
+  Facial7,
+  Facial8,
+  Facial9,
+  Facial10,
+  Flowers1,
+  Flowers2,
+  Flowers3,
+  Flowers4,
+  Flowers5,
+  Flowers6,
+  Flowers7,
+  Flowers8,
+  Flowers9,
+  Flowers10,
+  Watch1,
+  Watch4,
+  Watch5,
+  Watch6,
+  Bag1,
+  Bag2,
+  Bag3,
+  Bag4,
+  Bag5,
+  Bag6,
+  Bag7,
+  Bag8,
+  Bag9,
+  Bag10,
+} from "./Imports_Dashboard.js";
 
 let productsDetails = [
   {
@@ -99,25 +113,26 @@ let productsDetails = [
   {
     title: "Smartwatch",
     images: [
-      { image: Cosmetic1, detail: "detail1" },
-      { image: Cosmetic1, detail: "detail2" },
-      { image: Cosmetic1, detail: "detail3" },
-      { image: Cosmetic1, detail: "detail4" },
-      { image: Cosmetic1, detail: "detail5" },
-      { image: Cosmetic1, detail: "detail7" },
-      { image: Cosmetic1, detail: "detail8" },
+      { image: Watch1, detail: "Pink Apple SmartWatch" },
+
+      { image: Watch4, detail: "Black Samsung SmartWatch" },
+      { image: Watch5, detail: "Fitbit SmartWatch" },
+      { image: Watch6, detail: "Fitbit SmartWatch Gold" },
     ],
   },
   {
     title: "Bolsos",
     images: [
-      { image: Cosmetic1, detail: "detail1" },
-      { image: Cosmetic1, detail: "detail2" },
-      { image: Cosmetic1, detail: "detail3" },
-      { image: Cosmetic1, detail: "detail4" },
-      { image: Cosmetic1, detail: "detail5" },
-      { image: Cosmetic1, detail: "detail7" },
-      { image: Cosmetic1, detail: "detail8" },
+      { image: Bag1, detail: "Prime Bag White" },
+      { image: Bag2, detail: "Trefoil 2.0 Backpack" },
+      { image: Bag3, detail: "Rifta BackPack Red" },
+      { image: Bag4, detail: "Rifta BackPack Chalky Brown" },
+      { image: Bag5, detail: "Rifta BackPack Black" },
+      { image: Bag6, detail: "Nike Sportswear RPM" },
+      { image: Bag7, detail: "Nike Sportswear Essentials" },
+      { image: Bag8, detail: "Nike Elemental Premium" },
+      { image: Bag9, detail: "Nike Hayward" },
+      { image: Bag10, detail: "Nike Sportswear RPM" },
     ],
   },
 ];
