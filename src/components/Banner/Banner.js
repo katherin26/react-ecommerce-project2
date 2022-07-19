@@ -9,6 +9,7 @@ function Section() {
           Regalar algo a una persona es fácil, hasta que buscas el mejor regalo
           para quien te ha robado el corazón
         </h2>
+
         <h3 className="banner__content--phrase">
           El señor el mi pastor y nada me faltará
         </h3>
